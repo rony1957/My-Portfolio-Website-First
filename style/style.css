@@ -195,4 +195,67 @@ margin-top: -15px;
   border-radius: 5px;
   margin-top: 30px;
 }
+.skill-tittle{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(24, 24, 24);
+}
+.skill-description{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
 /* What I do section end */
+
+
+
+
+/* Resume area start */
+.resume hr{
+  margin: 30px 5px;
+}
+
+.resume-tittle{
+  margin-top: 130px;
+}
+
+.resume-column{
+  margin-top: 70px;
+}
+
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+
+
+.resume-coloumn-tittle{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
+}
+
+
+.experience-tittle{
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(71, 71, 71);
+}
+
+.experience-sub-tittle{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(117, 117, 117);
+  margin-top: -25px;
+}
+
+.experience-discription{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+}
+
+.resume-btn{
+  margin-top: 70px;
+}
+/* Resume area end */
