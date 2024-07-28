@@ -125,6 +125,9 @@ main{
   background-color: rgb(255, 248, 243);
 }
 
+.text-center{
+  text-align: center;
+}
 
 .section-tittle{
   font-size: 35px;
@@ -171,3 +174,25 @@ margin-top: -15px;
 
 
 /* About area end */
+
+
+/* What I do section start */
+.skills{
+  margin-top: 130px;
+}
+.skills-text{
+  margin: 0px 120px 0px 120px;
+}
+
+.skill-items{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+  padding: 33px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+/* What I do section end */
