@@ -259,3 +259,72 @@ margin-top: -15px;
   margin-top: 70px;
 }
 /* Resume area end */
+
+
+/* Main section end  */
+
+
+
+
+/* ---------------------------------Footer section start-------------------------------------- */
+
+footer{
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+  margin-top: 130px;
+}
+
+.footer-sub-tittle{
+  color: rgb(71, 71, 71);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.footer-coloumn{
+  width: 50%;
+}
+#text{
+  height: 33px;
+  width: 460px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#email{
+  height: 33px;
+  width: 460px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#text-area{
+  height: 180px;
+  width: 460px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.font-awesome i{
+  padding: 5px;
+  color: orangered;
+  font-size: 20px;
+}
+
+
+input::placeholder{
+  font-size: 16px;
+  color: rgb(117, 117, 117);
+}
+textarea::placeholder{
+  font-size: 20px;
+  color: rgb(117, 117, 117);
+}
+/* ---------------------------------Footer section end-------------------------------------- */
