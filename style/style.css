@@ -297,7 +297,7 @@ footer{
 }
 #text{
   height: 33px;
-  width: 460px;
+  width: 340px;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -306,7 +306,7 @@ footer{
 
 #email{
   height: 33px;
-  width: 460px;
+  width: 340px;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -315,7 +315,7 @@ footer{
 
 #text-area{
   height: 180px;
-  width: 460px;
+  width: 340px;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -338,3 +338,46 @@ textarea::placeholder{
   color: rgb(117, 117, 117);
 }
 /* ---------------------------------Footer section end-------------------------------------- */
+
+
+
+
+
+/* Media Query */
+
+main{
+  
+  margin: 0 auto;
+}
+
+
+
+.hide{
+  display: none;
+}
+
+
+@media screen and (max-width:576px) {
+  .skill-items, .resume-container{
+    flex-direction: column;
+  }
+
+  .skills-text{
+    margin: 0px 15px 0px 0px;
+  }
+
+  footer, .about{
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 130px;
+  }
+
+  .footer-coloumn{
+    width: 100%;
+  }
+
+  .about-items{
+    flex-direction: column;
+  }
+
+}
