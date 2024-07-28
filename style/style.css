@@ -77,25 +77,97 @@ nav ul li a {
 
 .banner-content button{
 margin-right: 30px;
+margin-top: 30px;
 }
 .banner-greating{
   color: rgb(71, 71, 71);
   font-size: 45px;
   font-weight: 600;
+  margin-top: 150px;
 }
 
 .banner-tittle{
   font-weight: bold;
   font-size: 85px;
+  margin-top: -50px;
 }
 
 .banner-discription{
   color: rgb(117, 117, 117);
   font-weight: 400;
   font-size: 18px;
+  margin-top: -30px;
 }
 
 .banner-profile-pic{
   width: 580px;
 }
 /* Banner text area */
+
+
+/* Header area end */
+
+
+/* main style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* main style */
+
+
+
+/* About area start */
+
+/* Re-useable content */
+
+.background-bg{
+  background-color: rgb(255, 248, 243);
+}
+
+
+.section-tittle{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(24, 24, 24);
+}
+
+.section-description{
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+}
+/* Re-useable content */
+
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-bg{
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+.about-items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.item-tittle{
+color: rgb(117, 117, 117);
+font-weight: 400;
+font-size: 20px;
+margin-top: 10px;
+}
+
+.item-description{
+color: rgb(71, 71, 71);
+font-weight: 700;
+font-size: 20px;
+margin-top: -15px;
+}
+
+
+/* About area end */
