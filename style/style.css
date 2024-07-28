@@ -376,8 +376,50 @@ main{
     width: 100%;
   }
 
-  .about-items{
+  .about-items, .banner{
     flex-direction: column;
   }
+ .banner{
+  margin:0 auto;
+ }
+
+ nav{
+  margin: 0;
+  flex-direction: column;
+ }
+
+ nav > ul{
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ .banner-profile-pic{
+  width: 100%;
+ }
+
+ .header{
+  background-image: none;
+ }
+ .banner-content{
+  width: 100%;
+  text-align: center;
+}
+
+.banner-tittle{
+  font-size: 50px;
+  
+}
+
+.banner-greating{
+  font-size: 40px;
+  margin-top: 50px;
+  
+}
+
+.banner-discription{
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 }
